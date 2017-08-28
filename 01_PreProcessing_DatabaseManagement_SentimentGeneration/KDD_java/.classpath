@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="mongo-java-driver-3.4.2.jar" sourcepath="mongo-java-driver-3.4.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/KDD-java/mongo-java-driver-3.4.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/stanford-corenlp-3.8.0.jar" sourcepath="stanford-corenlp-full-2017-06-09/stanford-corenlp-3.8.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://nlp.stanford.edu/nlp/javadoc/javanlp/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/protobuf.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/javax.json.jar" sourcepath="stanford-corenlp-full-2017-06-09/javax.json-api-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/joda-time.jar" sourcepath="stanford-corenlp-full-2017-06-09/joda-time-2.9-sources.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/jollyday.jar" sourcepath="stanford-corenlp-full-2017-06-09/jollyday-0.4.9-sources.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/slf4j-simple.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/xom.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/stanford-corenlp-3.8.0-models.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-full-2017-06-09/ejml-0.23.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
